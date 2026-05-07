@@ -158,19 +158,7 @@ Using the first sample from the dataset:
 └── README.md
 ```
 
-## CV Highlights
+## Highlights
 
-- Built an end-to-end machine learning pipeline for breast cancer classification.
-- Compared classical ML models, gradient boosting, XGBoost, SVM, KNN, and neural networks using robust evaluation metrics.
-- Applied stratified splitting, train-only preprocessing, PCA, cross-validation, hyperparameter tuning, threshold tuning, and model persistence.
-- Added model explainability with permutation importance, tree-based feature importance, and logistic regression coefficients.
-- Deployed an interactive Streamlit prediction app with probability output and safety disclaimer.
-- Implemented reproducible training, generated reports, saved artifacts, and basic unit tests.
-
-## Future Improvements
-
-- Add external validation on a separate clinical dataset.
-- Add SHAP plots when the optional SHAP dependency is installed.
-- Calibrate probabilities with Platt scaling or isotonic regression and compare deployment thresholds.
-- Package the Streamlit app with Docker.
-- Add CI to run tests and regenerate a lightweight smoke-test report.
+Built an end-to-end machine learning pipeline for breast cancer classification, comparing classical ML models, gradient boosting, XGBoost, SVM, KNN, and neural networks using robust evaluation metrics. The project applies stratified splitting, train-only preprocessing, PCA, cross-validation, hyperparameter tuning, threshold tuning, model persistence, model explainability with permutation importance, tree-based feature importance, and logistic regression coefficients, while also deploying an interactive Streamlit prediction app with probability output, a safety disclaimer, reproducible training, generated reports, saved artifacts, and basic unit tests.
+Future improvements include adding external validation on a separate clinical dataset, generating SHAP plots when the optional SHAP dependency is installed, calibrating probabilities with Platt scaling or isotonic regression, comparing deployment thresholds, packaging the Streamlit app with Docker, and adding CI to run tests and regenerate a lightweight smoke-test report.
