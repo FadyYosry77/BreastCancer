@@ -2,8 +2,6 @@
 
 End-to-end machine learning project for classifying breast tumors as **Malignant** or **Benign** from diagnostic measurements. The project compares classical ML models and neural networks, tunes hyperparameters, explains model behavior, saves reproducible artifacts, and ships a Streamlit prediction app.
 
-> **Disclaimer:** This project is educational and portfolio-oriented. It is not a medical device, clinical decision system, or substitute for professional diagnosis.
-
 ## Problem Statement
 
 Breast cancer diagnosis can be supported by automated pattern recognition on tumor measurements. The goal is to build a scientifically responsible binary classifier that predicts whether a tumor is malignant or benign while avoiding data leakage and reporting medically relevant metrics such as recall, specificity, false negatives, ROC-AUC, and PR-AUC.
