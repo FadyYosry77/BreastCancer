@@ -1,0 +1,38 @@
+{
+  "best_model": "Neural Network",
+  "best_threshold": 0.24,
+  "best_metrics": {
+    "threshold": 0.24,
+    "accuracy": 0.9824561403508771,
+    "precision": 0.9761904761904762,
+    "recall": 0.9761904761904762,
+    "f1": 0.9761904761904762,
+    "roc_auc": 0.9976851851851851,
+    "pr_auc": 0.9961867550130692,
+    "sensitivity": 0.9761904761904762,
+    "specificity": 0.9861111111111112,
+    "true_negatives": 71,
+    "false_positives": 1,
+    "false_negatives": 1,
+    "true_positives": 41,
+    "inference_time_seconds": 0.0023955679971550126,
+    "inference_time_ms_per_sample": 0.02101375436100888,
+    "model": "Neural Network (threshold tuned)",
+    "training_time_seconds": 4.651131620001252,
+    "best_params": {
+      "classifier__alpha": 0.0001,
+      "classifier__hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "classifier__learning_rate_init": 0.001,
+      "pca": "passthrough"
+    }
+  },
+  "artifacts": {
+    "model": "/home/hp/Downloads/BreastCancer-main/models/best_model.joblib",
+    "metrics": "/home/hp/Downloads/BreastCancer-main/reports/metrics/model_metrics.csv",
+    "figures": "/home/hp/Downloads/BreastCancer-main/reports/figures"
+  },
+  "shap_summary_generated": false
+}

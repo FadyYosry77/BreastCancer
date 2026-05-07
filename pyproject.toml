@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "breast-cancer-prediction"
+version = "1.0.0"
+description = "Portfolio-ready breast cancer tumor classification pipeline."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+  "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.33"]
+advanced = ["xgboost>=2.0", "shap>=0.45", "tensorflow>=2.17"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
