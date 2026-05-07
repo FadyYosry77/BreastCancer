@@ -160,5 +160,11 @@ Using the first sample from the dataset:
 
 ## Highlights
 
-Built an end-to-end machine learning pipeline for breast cancer classification, comparing classical ML models, gradient boosting, XGBoost, SVM, KNN, and neural networks using robust evaluation metrics. The project applies stratified splitting, train-only preprocessing, PCA, cross-validation, hyperparameter tuning, threshold tuning, model persistence, model explainability with permutation importance, tree-based feature importance, and logistic regression coefficients, while also deploying an interactive Streamlit prediction app with probability output, a safety disclaimer, reproducible training, generated reports, saved artifacts, and basic unit tests.
-Future improvements include adding external validation on a separate clinical dataset, generating SHAP plots when the optional SHAP dependency is installed, calibrating probabilities with Platt scaling or isotonic regression, comparing deployment thresholds, packaging the Streamlit app with Docker, and adding CI to run tests and regenerate a lightweight smoke-test report.
+- Built an end-to-end machine learning pipeline for breast cancer classification.
+- Compared Logistic Regression, Random Forest, Gradient Boosting, XGBoost, SVM, KNN, and Neural Network models using robust evaluation metrics.
+- Applied stratified splitting, train-only preprocessing, PCA, cross-validation, hyperparameter tuning, and threshold tuning.
+- Added model explainability using permutation importance, tree-based feature importance, and logistic regression coefficients.
+- Saved trained models, generated evaluation reports, and produced professional visualizations.
+- Deployed an interactive Streamlit app with probability output and a safety disclaimer.
+- Implemented reproducible training and basic unit tests for reliability.
+- Future improvements include external validation, SHAP explanations, probability calibration, Docker packaging, and CI automation.
